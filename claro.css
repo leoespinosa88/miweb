@@ -1,0 +1,130 @@
+body {
+    background: url(imagen/ScreenShot-2023-2-18_2-59-2.png);
+    background-position: top;
+}
+
+#contenido {
+    text-align: center;
+    background-color: rgb(255, 255, 0, 0.5);
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px;   
+    padding-bottom: 120px;
+}
+
+header h3 {
+    color: #7911e8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header h1, h2 {
+    color: #e61468;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: -10px;
+    
+}
+
+header h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+section table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #45048a;
+    color: yellow;
+}
+
+td {
+    background: yellow;
+}
+
+aside {
+    background-color: #45048a;
+    margin-top: 0;
+    color: yellow;
+}
+
+nav a {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(76, 11, 149);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+
+section .mes, .instalacion {
+    background-color: #e61468;
+    padding: 10px;
+    color: #fff;
+    margin-top: 5px;
+}
+section .mes { 
+    float: left;
+    width: 35%;
+    font-size: 19.2px;
+}
+
+section .instalacion {
+    float: right;
+    width: 50%;
+    font-size: 19px;
+
+}
+
+section .contenido {
+    background-color: #45048a;
+    margin-top: 125px;
+    color: yellow;
+    
+}
+
+section .primer {
+    background-color: #11beea;
+    float: left;
+    width: 45%;
+    color: #fff;
+}
+
+section .hbo {
+    background: linear-gradient(#45048a, #7911e8);
+    float: right;
+    width: 50%;
+    color: #fff;
+}
+
+
+
+footer {
+    clear: both;
+    background-color: yellow;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+footer h2 {
+    color: #e61468;
+}
+
+footer article {
+    background-color: aliceblue;
+    width: 200px;
+    height: 70px;
+    padding: 2px;
+    border: solid black;
+    border-radius: 5px;
+    color: grey;
+}
+
